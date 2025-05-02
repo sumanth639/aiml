@@ -229,8 +229,8 @@
                   <i class="icon-phone"></i>
                 </div>
                 <h4>Call us on</h4>
-                <a href="tel:+415-864-8728">+415-864-8728</a> <br />
-                <a href="tel:+415-864-8729">+415-864-8729</a>
+                <a href="tel:+918766270884">+91 8766270884</a> <br />
+                <a href="tel:+918586876880">+91 85868 76880</a>
               </div>
             </div>
 
@@ -241,8 +241,9 @@
                   <i class="icon-envelope"></i>
                 </div>
                 <h4>Email us</h4>
-                <a href="mailto:">support@braine.com</a> <br />
-                <a href="mailto:">contact@braine.com</a>
+                <a href="mailto:support@braine.com">support@braine.com</a>
+                <br />
+                <a href="mailto:contact@braine.com">contact@braine.com</a>
               </div>
             </div>
 
@@ -254,15 +255,15 @@
                 </div>
                 <h4>Our location</h4>
                 <div class="text">
-                  1426 Center StreetBend, OR <br />
-                  97702, California, USA
+                  Two Horizon, Gurugram <br />
+                  122002, Haryana, India
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Faq One -->
+      <!-- End Contact Info -->
 
       <!-- Team Detail Form -->
       <section class="team-detail_form">
@@ -277,8 +278,10 @@
                   Connect with us for <span>assistance</span>
                 </h2>
                 <div class="sec-title_text">
-                  Lorem ipsum dolor sit amet consectetur adipiscing <br />
-                  elit Ut et massa Aliquam in hendrerit urna.
+                  Stay ahead with the latest AI innovations and strategies.
+                  <br />
+                  Subscribe to our newsletter for exclusive insights and
+                  updates.
                 </div>
               </div>
               <!-- Social Box -->
@@ -300,7 +303,18 @@
             <!-- Column -->
             <div class="column col-lg-6 col-md-12 col-sm-12">
               <div class="default-form contact-form">
-                <form method="post" action="sendemail.php" id="contact-form">
+                <form
+                  id="contact-form"
+                  data-web3="true"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  data-token="af0b7193-e1ba-42f6-a435-db4fb28a9f4a"
+                >
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="af0b7193-e1ba-42f6-a435-db4fb28a9f4a"
+                  />
                   <div class="row clearfix">
                     <!--Form Group-->
                     <div class="form-group col-lg-6 col-md-6 col-sm-6">
@@ -333,11 +347,13 @@
                     </div>
                     <!--Form Group-->
                     <div class="form-group col-lg-6 col-md-6 col-sm-6">
-                      <select name="country" class="custom-select-box">
+                      <select name="service" class="custom-select-box">
                         <option>Select service</option>
-                        <option>Service 01</option>
-                        <option>Service 02</option>
-                        <option>Service 03</option>
+                        <option>Data Intelligence</option>
+                        <option>Machine Learning</option>
+                        <option>Custom AI Development</option>
+                        <option>AI Integration</option>
+                        <option>AI Automation</option>
                       </select>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
@@ -348,7 +364,11 @@
                       ></textarea>
                     </div>
                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                      <button type="button" class="template-btn btn-style-one">
+                      <button
+                        type="submit"
+                        class="template-btn btn-style-one"
+                        id="web3-submit"
+                      >
                         <span class="btn-wrap">
                           <span class="text-one">Send now</span>
                           <span class="text-two">Send now</span>
@@ -450,21 +470,35 @@
                   <div class="footer-newsletter">
                     <h5 class="footer-title">Newsletter</h5>
                     <div class="footer-newsletter_text">
-                      Lorem ipsum dolor sit amet consectetur adipiscing vitae
-                      mattis tellus. Nullam quis mattis.
+                      Stay ahead with the latest AI innovations and strategies.
+                      Subscribe to our newsletter for exclusive insights and
+                      updates.
                     </div>
                     <div class="newsletter-box">
-                      <form method="post" action="contact.html">
+                      <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                      >
+                        <input
+                          type="hidden"
+                          name="access_key"
+                          value="af0b7193-e1ba-42f6-a435-db4fb28a9f4a"
+                        />
                         <div class="form-group">
                           <span
                             class="icon fa-regular fa-envelope fa-fw"
                           ></span>
                           <input
                             type="email"
-                            name="search-field"
+                            name="email"
                             value=""
                             placeholder="Enter your mail"
                             required
+                          />
+                          <input
+                            type="hidden"
+                            name="redirect"
+                            value="https://web3forms.com/success"
                           />
                           <button
                             type="submit"
@@ -489,36 +523,34 @@
                       <div class="column col-lg-5 col-md-4 col-sm-6">
                         <h5 class="footer-title">Services</h5>
                         <ul class="footer-pages_list">
-                          <li><a href="#">AI-powered copywriting</a></li>
-                          <li><a href="#">Blog post generation</a></li>
-                          <li><a href="#">Social media content</a></li>
-                          <li><a href="#">Product descriptions</a></li>
-                          <li><a href="#">Email campaigns</a></li>
-                          <li><a href="#">Copy writings</a></li>
-                          <li><a href="#">SEO specialist</a></li>
+                          <li><a href="services.html">Data Intelligence</a></li>
+                          <li><a href="services.html">Machine Learning</a></li>
+                          <li><a href="services.html">Custom Solutions</a></li>
+                          <li>
+                            <a href="services.html">Custom AI Development</a>
+                          </li>
+                          <li><a href="services.html">AI Integration</a></li>
+                          <li><a href="services.html">AI Automation</a></li>
                         </ul>
                       </div>
                       <!-- Column -->
                       <div class="column col-lg-3 col-md-4 col-sm-6">
                         <h5 class="footer-title">resources</h5>
                         <ul class="footer-pages_list">
-                          <li><a href="#">Blog</a></li>
-                          <li><a href="#">FAQs</a></li>
-                          <li><a href="#">Help center</a></li>
-                          <li><a href="#">case studies</a></li>
-                          <li><a href="#">whitepapers</a></li>
-                          <li><a href="#">Services</a></li>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="pricing.html">Price</a></li>
                         </ul>
                       </div>
                       <!-- Column -->
                       <div class="column col-lg-4 col-md-4 col-sm-6">
                         <h5 class="footer-title">about us</h5>
                         <ul class="footer-pages_list">
-                          <li><a href="#">Our story</a></li>
-                          <li><a href="#">Team</a></li>
-                          <li><a href="#">Careers</a></li>
-                          <li><a href="#">Testimonials</a></li>
-                          <li><a href="#">Error 404</a></li>
+                          <li><a href="about.html">Our story</a></li>
+                          <li><a href="about.html">Team</a></li>
+                          <li><a href="about.html">Careers</a></li>
+                          <li><a href="contact.html">Contact</a></li>
                         </ul>
                       </div>
                     </div>
@@ -539,8 +571,9 @@
                 /></a>
               </div>
               <div class="footer-copyright">
-                &copy; 2024 <a href="index.html">Braine.</a> All rights
-                reserved.
+                &copy; 2025 Braine. Designed by
+                <a href="https://aetherweb.life/">Aetherweb Technologies LLP</a>
+                All rights reserved.
               </div>
               <!-- Social Box -->
               <div class="footer-social_box">
